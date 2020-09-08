@@ -1,7 +1,113 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#leftnav {
+  margin: 1px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#leftlink {
+  padding: 0px 0px 0px 15px;
+  display: inline-block;
+}
+
+#leftlink:hover {
+  text-decoration: underline;
+}
+
+#leftfooter {
+  color: #5f6368;
+  cursor: pointer;
+}
+
+#leftfooter:hover {
+  color: #5f6368;
+}
+
+#leftlink-footer {
+  padding: 0px 0px 0px 15px;
+  display: inline-block;
+}
+
+#leftlink-footer:hover {
+  text-decoration: underline;
+}
+
+#rightnav {
+  margin: 8px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#rightlink {
+  display: inline-block;
+  padding: 0px 15px 0px 0px;
+}
+
+#rightlink:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+#rightlink-footer {
+  display: inline-block;
+  padding: 0px 23px 0px 0px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+#rightlink-footer:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+  color: #5f6368;
+}
+
+.mail-link {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+#apps {
+  background: url("https://andyglover.github.io/odin_google-homepage/appsoff.png")
+    no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-position: center;
+  width: 16px;
+  height: 30px;
+  padding: 0px 7px 0px 7px;
+}
+
+#apps:hover {
+  opacity: 0.85;
+}
+
+#signinbutton {
+  padding: 0px 12px;
+  height: 30px;
+  background-color: rgb(66, 133, 244);
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
 .Google-logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 144px;
+  margin-bottom: 27px;
 }
 
 .site-search {
@@ -12,9 +118,10 @@
   box-shadow: none;
   border-radius: 24px;
   height: 44px;
-  width: 482px;
   margin: 0 auto;
   padding: 0px 8px 0px 0px;
+  min-width: 476px;
+  width: 580px;
 }
 
 .site-search:hover {
@@ -55,4 +162,21 @@
 
 .search:focus {
   outline: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#footeralign {
+  display: flex;
+  justify-content: space-between;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  font-size: 14px;
+  padding-right: 8px;
+  /*line-height: 40px;*/
 }
